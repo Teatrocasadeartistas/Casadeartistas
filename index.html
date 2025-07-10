@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teatro Casa de Artistas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+    header {
+      background: #F8F5F0;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #D4A373;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://via.placeholder.com/1200x600?text=Teatro+Casa+de+Artistas');
+      background-size: cover;
+      background-position: center;
+      padding: 8rem 2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background: #D4A373;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h3 {
+      font-family: 'Playfair Display', serif;
+      color: #D4A373;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #F8F5F0;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      text-align: center;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Casa de Artistas</h1>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#cursos">Formación</a>
+      <a href="#obras">Obras</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Formamos artistas con alma</h2>
+    <a href="#cursos" class="btn">Explora los cursos</a>
+  </section>
+
+  <section id="nosotros" class="section">
+    <h3>Sobre Nosotros</h3>
+    <p>Somos un espacio de creación, formación y exhibición para artistas escénicos. Nuestro compromiso es con el arte, el cuerpo y la expresión auténtica.</p>
+  </section>
+
+  <section id="cursos" class="section">
+    <h3>Formación Artística</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=Dico+%26+Tomi" alt="Dico y Tomi">
+        <h4>Ciudad R</h4>
+        <p>Obra teatral educativa sobre el medio ambiente con personajes carismáticos y coloridos.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=Canto+Cuentos" alt="Narración y música">
+        <h4>Canto Cuentos</h4>
+        <p>Obra de narración y música con historias mágicas contadas a través de rimas, canciones y retahílas.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=Sueños+y+Aventuras" alt="Concierto en vivo">
+        <h4>Sueños y Aventuras</h4>
+        <p>Espectáculo musical en vivo con interacción para niños y familias. Cumbia, rock y alegría en escena.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=Testarfur" alt="Testarfur">
+        <h4>El Duende Testarfur</h4>
+        <p>Un duende emprende la búsqueda de la felicidad en una travesía llena de obstáculos y enseñanzas.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=Teatro+Infantil" alt="Obra infantil">
+        <h4>Teatro Infantil</h4>
+        <p>Obras con títeres, máscaras y juegos teatrales que estimulan la imaginación de los más pequeños.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <h3>Contacto</h3>
+    <p>Email: teatrocasadeartistasengativa@gmail.com | WhatsApp: +57 320 4534953</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Casa de Artistas. Todos los derechos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/573204534953" class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">💬</a>
+</body>
+</html>
